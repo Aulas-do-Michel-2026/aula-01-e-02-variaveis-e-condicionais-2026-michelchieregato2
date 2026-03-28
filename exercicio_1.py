@@ -19,8 +19,8 @@ Dica: Use inputs para receber os dados!
 Lembre de converter ele para o tipo necessário!
 Print na tela com "print"
 """
-nota_1 = input("Digite a primeira nota:")
-nota_2 = input("Digite a segunda nota:")
-nota_3 = input("Digite a terceira nota:")
+nota_1 = float(input("Digite a primeira nota:"))
+nota_2 = float(input("Digite a segunda nota:"))
+nota_3 = float(input("Digite a terceira nota:"))
 
 print(f"Média {(nota_1 + nota_2 + nota_3) / 3}")
